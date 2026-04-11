@@ -54,3 +54,5 @@ addCart.forEach(function(boton){
         console.log(cart)
     })
 })
+
+ 
