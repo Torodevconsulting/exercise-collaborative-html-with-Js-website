@@ -1,2 +1,83 @@
 <!-- your html code here -->
-<p>Hello, I'm the first_heading.html</p>
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(253, 252, 252);
+            width: fit-content;
+            margin: 10px;
+            place-self: center;
+        }
+
+        .first-heading {
+            font-family: "Outfit", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        h6 {
+            color: gray;
+        }
+
+        .slogan {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1 {
+            align-self: center;
+        }
+
+        img {
+            margin-left: 100px;
+        }
+
+        button {
+            display: flexbox;
+            border-radius: 5px;
+            margin: 3px;
+        }
+    </style>
+</head>
+
+<body>
+    <container class="first-heading">
+        <div class="heading">
+            <div class="mini-title">
+                <h6>
+                    Colección Primavera-Verano 2026
+                </h6>
+            </div>
+            <div class="slogan">
+                <h1>
+                    Design Clothing
+                </h1>
+                <img class="models-img"
+                    src="https://img.freepik.com/foto-gratis/mujer-hermosa-sonriente-sexy-su-novio-guapo-familia-alegre-feliz-teniendo-momentos-tiernos-pareja-apasionada-joven-abrazandose-antes-tener-sexo-pareja-sensual-acercandose-beso-aislado_158538-22597.jpg">
+            </div>
+            <div class="clothes-type">
+                <button class="all">
+                    Todos
+                </button>
+                <button class="men">
+                    Hombre
+                </button>
+                <button class="women">
+                    Mujer
+                </button>
+            </div>
+        </div>
+    </container>
+</body>
